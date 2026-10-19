@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Uebung251
+{
+    
+    public class Person
+    {
+        private string _Name;
+        private string _Vorname;
+
+        string Name
+        {
+            get { return _Name; }
+        }
+
+        string Vorname
+        {
+            get { return _Vorname; }
+        }
+
+
+    }
+    
+    /// <summary>
+    /// Class Privakunde erbt Klasse Person
+    /// </summary>
+    public class Privatkunde : Person
+    {
+        private int _Kundennummer;
+
+        int Kundennummer
+        {
+            get { return _Kundennummer; }
+        }
+
+    }
+}
+
